@@ -8,7 +8,7 @@ class ProfileCountInfo extends StatelessWidget {
       children: [
         _buildInfo("50", "Posts"),
         _buildLine(),
-        _buildInfo("10", "Follower"),
+        _buildInfo("10", "Followers"),
         _buildLine(),
         _buildInfo("10", "Following"),
       ],

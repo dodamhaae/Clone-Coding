@@ -3,6 +3,9 @@
 /home/dodam/profile/Instagram/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
 /home/dodam/profile/Instagram/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
 /home/dodam/profile/Instagram/build/linux/x64/debug/bundle/data/flutter_assets/version.json
+/home/dodam/profile/Instagram/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/Venice.jpg
+/home/dodam/profile/Instagram/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/Croatia.jpg
+/home/dodam/profile/Instagram/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/dodam.jpg
 /home/dodam/profile/Instagram/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag
 /home/dodam/profile/Instagram/build/linux/x64/debug/bundle/data/flutter_assets/shaders/stretch_effect.frag
 /home/dodam/profile/Instagram/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf

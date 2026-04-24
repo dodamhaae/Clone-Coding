@@ -18,7 +18,7 @@ class ProfileHeader extends StatelessWidget {
       width: 100,
       height: 100,
       child: CircleAvatar(
-        backgroundImage: AssetImage("assets/dodam.jpg"),
+        backgroundImage: AssetImage("assets/images/dodam.jpg"),
       ),
     );
   }

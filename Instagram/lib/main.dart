@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:profile/theme.dart';
+import 'package:profile/components/buttons.dart';
 import 'package:profile/components/count_info.dart';
 import 'package:profile/components/drawer.dart';
 import 'package:profile/components/header.dart';
@@ -18,9 +19,19 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: theme(),
       home: Scaffold(
-        appBar: AppBar(title: Text("Profile")),
+        appBar: AppBar(title: Text("dodamhaae")),
         drawer: ProfileDrawer(),
-        body: ProfileHeader(),
+//         body: ProfileHeader(),
+        body: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            ProfileHeader(),
+            SizedBox(height: 20),
+            ProfileCountInfo(),
+            SizedBox(height: 20),
+            ProfileButtons(),
+          ],
+        ),
       ),
     );
   }
