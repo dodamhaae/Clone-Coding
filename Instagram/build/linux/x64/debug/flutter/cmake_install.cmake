@@ -1,8 +1,8 @@
-# Install script for directory: /home/dodam/profile/linux/flutter
+# Install script for directory: /home/dodam/profile/Instagram/linux/flutter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/dodam/profile/build/linux/x64/debug/bundle")
+  set(CMAKE_INSTALL_PREFIX "/home/dodam/profile/Instagram/build/linux/x64/debug/bundle")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

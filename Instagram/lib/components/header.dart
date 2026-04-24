@@ -23,24 +23,30 @@ class ProfileHeader extends StatelessWidget {
     );
   }
 
-  Widget _buildHeaderProfile() {
-    return const Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Text(
-          "LIM DODAM",
-          style: TextStyle(
-            fontSize: 25,
-            fontWeight: FontWeight.w700,
+   Widget _buildHeaderProfile() {
+      return const Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            "LIM DODAM 🐾",
+            style: TextStyle(
+              fontSize: 25,
+              fontWeight: FontWeight.w700,
+            ),
           ),
-        ),
-        Text(
-          "maltipoo",
-          style: TextStyle(
-            fontSize: 20,
+          Text(
+            "maltipoo",
+            style: TextStyle(
+              fontSize: 20,
+            ),
           ),
-        ),
-      ],
-    );
+          Text(
+            "🎂 151224",
+            style: TextStyle(
+              fontSize: 15,
+            ),
+          ),
+        ],
+      );
+    }
   }
-}
