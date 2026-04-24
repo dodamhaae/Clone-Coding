@@ -16,6 +16,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: theme(),
+      home: Scaffold(
+        appBar: AppBar(title: Text("Profile")),
+        drawer: ProfileDrawer(),
+        body: ProfileHeader(),
+      ),
     );
   }
 }
