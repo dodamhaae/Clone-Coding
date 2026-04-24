@@ -4,7 +4,7 @@ class ProfileDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 200,
+      width: double.infinity,
       height: double.infinity,
       color: Colors.blue,
     );
